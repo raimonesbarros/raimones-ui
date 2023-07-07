@@ -1,5 +1,13 @@
-import { colors } from '@raimones-ui/tokens'
+import { styled } from './styles'
+
+const Button = styled('button', {
+  backgroundColor: '$rai500',
+  padding: '$2 $4',
+  color: '$white',
+  fontFamily: '$code',
+  fontWeight: '$bold',
+})
 
 export function App() {
-  return <h1 style={{ color: colors.rai300 }}>My app</h1>
+  return <Button>Voltar</Button>
 }
