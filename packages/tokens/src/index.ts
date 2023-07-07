@@ -5,3 +5,5 @@ export * from './line-heights'
 
 export * from './radii'
 export * from './space'
+
+export * from './colors'
