@@ -27,9 +27,11 @@
     "vite": "^4.4.2"
   },
   "dependencies": {
+    "@raimones-ui/eslint-config": "*",
     "@raimones-ui/react": "*",
     "@raimones-ui/tokens": "*",
-    "@raimones-ui/eslint-config": "*",
+    "@raimones-ui/ts-config": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

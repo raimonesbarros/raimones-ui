@@ -1,7 +1,6 @@
 {
   "extends": "@raimones-ui/ts-config/react.json",
   "include": [
-    "src",
-    "../docs/src/components/ColorsGrid.tsx"
+    "src"
   ]
 }
