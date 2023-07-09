@@ -1,6 +1,5 @@
 export const colors = <const>{
-  white: '#FFF',
-  black: '#000',
+  white: '#FFFFFF',
 
   gray100: '#E1E1E6',
   gray200: '#A9A9B2',
@@ -10,6 +9,7 @@ export const colors = <const>{
   gray700: '#29292E',
   gray800: '#202024',
   gray900: '#121214',
+  black: '#000000',
 
   rai300: '#00B37E',
   rai500: '#00875F',

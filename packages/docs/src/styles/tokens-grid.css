@@ -5,6 +5,14 @@
   border-collapse: collapse;
 }
 
+.tokens-grid thead th,
+.tokens-grid thead tr,
+.tokens-grid thead td,
+.tokens-grid tbody tr,
+.tokens-grid tbody td {
+  border: 0;
+}
+
 .tokens-grid thead th {
   padding: 0.75rem 1rem;
   text-align: left;
