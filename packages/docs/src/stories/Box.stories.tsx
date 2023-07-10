@@ -11,3 +11,17 @@ export default {
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}
+
+export const CustomTag: StoryObj<BoxProps> = {
+  args: {
+    children: 'Box with <article> tag',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Box uses `<div>` tag by default and can be changed with the `as` property.',
+      },
+    },
+  },
+}
