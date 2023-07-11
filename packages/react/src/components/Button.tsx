@@ -9,7 +9,7 @@ export const Button = styled('button', {
   fontFamily: '$default',
   textAlign: 'center',
   minWidth: 120,
-  boxSizing: 'border-box',
+  ButtonSizing: 'border-Button',
   padding: '0 $4',
 
   display: 'flex',
@@ -85,3 +85,5 @@ export const Button = styled('button', {
 export interface ButtonProps extends ComponentProps<typeof Button> {
   as: ElementType
 }
+
+Button.displayName = 'Button'
