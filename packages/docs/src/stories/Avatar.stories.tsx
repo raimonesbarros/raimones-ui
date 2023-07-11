@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/raimonesbarros.png',
     alt: '',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'Text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
