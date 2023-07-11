@@ -4,7 +4,7 @@ import { CheckboxContainer, CheckboxIndicator } from './style'
 
 export type CheckboxProps = ComponentProps<typeof CheckboxContainer>
 
-export function Checkbox(props: CheckboxProps) {
+export const Checkbox = (props: CheckboxProps) => {
   return (
     <CheckboxContainer {...props}>
       <CheckboxIndicator asChild>
