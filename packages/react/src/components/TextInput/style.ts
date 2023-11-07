@@ -34,14 +34,14 @@ export const TextinputContainer = styled('div', {
 })
 
 export const Prefix = styled('span', {
-  fontFamily: '$default',
+  fontFamily: '$roboto',
   fontSize: '$sm',
   color: '$gray400',
   fontWeight: 'regular',
 })
 
 export const Input = styled('input', {
-  fontFamily: '$default',
+  fontFamily: '$roboto',
   fontSize: '$sm',
   color: '$white',
   fontWeight: 'regular',

@@ -6,7 +6,7 @@ export const Button = styled('button', {
   borderRadius: '$sm',
   fontSize: '$md',
   fontWeight: '$mediun',
-  fontFamily: '$default',
+  fontFamily: '$roboto',
   textAlign: 'center',
   minWidth: 120,
   ButtonSizing: 'border-Button',
@@ -36,7 +36,7 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
-        backgroundColor: '$rai500',
+        backgroundColor: '$primary500',
 
         '&:not(:disabled):hover': {
           backgroundColor: '$rai300',
@@ -49,10 +49,10 @@ export const Button = styled('button', {
 
       secondary: {
         color: '$rai300',
-        border: '2px solid $rai500',
+        border: '2px solid $primary500',
 
         '&:not(:disabled):hover': {
-          backgroundColor: '$rai500',
+          backgroundColor: '$primary500',
           color: '$white',
         },
 
